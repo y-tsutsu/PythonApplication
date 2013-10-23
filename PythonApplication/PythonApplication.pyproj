@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>396cdeab-b6a2-416d-956c-b4fee24939ca</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>OneLinerFizzBuzz.py</StartupFile>
+    <StartupFile>FileList.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="FileList.py" />
     <Compile Include="OneLinerFizzBuzz.py" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
