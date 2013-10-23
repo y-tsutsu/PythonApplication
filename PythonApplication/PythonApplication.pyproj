@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>396cdeab-b6a2-416d-956c-b4fee24939ca</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>FileList.py</StartupFile>
+    <StartupFile>PythonApplication.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,7 @@
   <ItemGroup>
     <Compile Include="FileList.py" />
     <Compile Include="OneLinerFizzBuzz.py" />
+    <Compile Include="PythonApplication.py" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>
